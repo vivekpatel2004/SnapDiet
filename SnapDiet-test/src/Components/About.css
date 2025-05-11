@@ -1,0 +1,62 @@
+.about-section {
+    padding: 4rem 1rem;
+    background-color: #efab18; /* Light grey background */
+    text-align: center; /* Centered text */
+  }
+  
+  .about-content {
+    max-width: 1200px; /* Max width to contain content */
+    margin: 0 auto; /* Center the section */
+  }
+  
+  .about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color:black; /* Dark text color */
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    color: black; /* Medium text color */
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 2rem; /* Space between paragraphs */
+  }
+  
+  .about-features {
+    display: flex;
+    justify-content: space-around; /* Space out the feature items */
+    flex-wrap: wrap; /* Make it responsive */
+  }
+  
+  .feature {
+    width: 30%; /* Feature width */
+    margin-bottom: 2rem; /* Space below features */
+  }
+  
+  .feature h3 {
+    font-size: 1.8rem;
+    color: black; /* Highlighted color for headings */
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    color: black; /* Slightly darker text for descriptions */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .feature {
+      width: 100%; /* Full width on smaller screens */
+      margin-bottom: 1.5rem;
+    }
+  
+    .about-content h2 {
+      font-size: 2rem; /* Smaller heading for mobile */
+    }
+  
+    .about-content p {
+      font-size: 1rem; /* Adjust font size on mobile */
+    }
+  }
+  
