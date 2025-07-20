@@ -1,0 +1,9 @@
+echo "node_modules/
+build/
+dist/
+.env
+__pycache__/
+venv/
+*.log
+.DS_Store
+" > .gitignore
